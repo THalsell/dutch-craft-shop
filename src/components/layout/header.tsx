@@ -12,16 +12,16 @@ export function Header() {
 
   return (
     <header className="sticky top-0 z-40 bg-white border-b border-border shadow-sm">
-      <Container className="flex items-center justify-between h-16 gap-4">
+      <Container className="flex items-center justify-between h-24 gap-4">
         {/* Logo */}
         <Link href="/" className="flex-shrink-0">
           <Image
             src="/dutch-craft-logo.png"
             alt="Dutch Craft Mattress"
-            width={140}
-            height={54}
+            width={240}
+            height={92}
             priority
-            className="h-10 w-auto"
+            className="h-20 w-auto"
           />
         </Link>
 
